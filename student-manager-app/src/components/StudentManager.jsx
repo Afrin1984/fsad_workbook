@@ -4,11 +4,11 @@ import "./StudentManager.css";
 function StudentManager() {
 
   const [students, setStudents] = useState([
-    { id: 1, name: "Rahul", course: "CSE" },
-    { id: 2, name: "Anita", course: "ECE" },
-    { id: 3, name: "Kiran", course: "IT" },
-    { id: 4, name: "Sneha", course: "MECH" },
-    { id: 5, name: "Ravi", course: "CIVIL" }
+    { id: 1, name: "Meghana", course: "IOT" },
+    { id: 2, name: "Hema", course: "ECE" },
+    { id: 3, name: "Latha", course: "IT" },
+    { id: 4, name: "Geetha", course: "MECH" },
+    { id: 5, name: "Rahul", course: "CIVIL" }
   ]);
 
   const [newStudent, setNewStudent] = useState({
